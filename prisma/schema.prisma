@@ -9,3 +9,9 @@ datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
+model Tarefa{
+  id      String @id @default(uuid())
+  nome    String
+  status  Boolean @default(false)
+}
