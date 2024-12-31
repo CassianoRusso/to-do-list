@@ -34,3 +34,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Detalhes da aplicação
+Essa aplicação foi implementada de forma simples, onde possui um campo de texto para o usuário digitar uma tarefa e salvar na lista. 
+Com as tarefas listadas, o usuário poderá marcar como concluída, clicando em cima da tarefa desejada.
+Quando o usuário marcar uma tarefa como concluída é apresentado uma trash para que ele consiga remover a tarefa da lista.
